@@ -27,7 +27,7 @@ def pet_info(nickname, species="dog"):
 
 # Function calls for Activity 3
 pet_info("Bongbong Marcos Jr")#Uses default species"
-pet_info("Kween Yasmin")    # Overrides default value
+pet_info("Kween Yasmin", "bird")   #Overrides default value
 
 
 # Activity 4: Custom Function (Drink Order)
@@ -60,3 +60,4 @@ print(calculate("add", 5, 10))
 print(calculate("multiply", value1=3, value2=4))
 print(calculate("subtract", 20))     # Uses default value2
 print(calculate("divide", 10, 2))    # Invalid operation
+
